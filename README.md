@@ -140,5 +140,20 @@ with serial.Serial('/dev/ttyUSB0', baudrate=2400, timeout=1.0) as ser:
 
 ---
 
+## 📌 TODO / Roadmap
+
+- [ ] **Internal ESP Integration (ESP32 / ESP8266 / ESP32-C3)**:
+  - Mount a compact ESP microcontroller inside the multimeter enclosure.
+  - Host an embedded web server & WebSocket API for real-time browser dashboard access.
+  - Provide a clean HTML/CSS browser source overlay widget for OBS Studio live streams.
+- [ ] **Bi-Directional UART Control (RXD investigation)**:
+  - Probe and test command payloads sent to the multimeter's internal **RXD** line.
+  - Investigate whether range/mode switching, trigger hold, or calibration parameters can be commanded remotely.
+- [ ] **Rechargeable Battery & Power Mod**:
+  - Replace the dual AAA ($2\times 1.5\text{V}$) battery holder with a rechargeable LiPo / 18650 / 14500 cell.
+  - Integrate a TP4056 or IP5306 USB-C charging board with a clean 3.3V low-dropout regulator (LDO) to power both the DMM and ESP module simultaneously.
+
+---
+
 ## 📄 License
 MIT
