@@ -17,6 +17,12 @@ The UT33D+ PCB features factory test pads connected directly to the internal Chi
 > [!IMPORTANT]
 > **Logic Level**: The UT33D+ runs on $2\times\text{AAA}$ batteries ($\approx 3\text{V}$). Always configure your USB-to-TTL converter (e.g. CH340, CP2102, FTDI) to **3.3V logic** (do not apply 5V TTL).
 
+### PCB & Hardware Setup
+<p align="center">
+  <img src="pics/IMG_20260823_155347c~2.jpg" width="48%" alt="UT33D+ PCB Soldering" />
+  <img src="pics/IMG_20260823_172234c.jpg" width="48%" alt="UT33D+ Setup Overview" />
+</p>
+
 ---
 
 ## ⚡ Serial UART Specifications
